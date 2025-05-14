@@ -19,12 +19,9 @@
   "scripts": {
     "dev": "tsx ./src/index.ts",
     "build": "tsup ./src/index.ts",
-    "lint": "pnpm biome check --write ./src"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pnpm biome check --write ./src"
-    }
+    "lint": "pnpm biome check --write ./src",
+    "prepublish": "pnpm build",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",

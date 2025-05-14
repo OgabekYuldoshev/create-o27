@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/OgabekYuldoshev/create-bek-stack/compare/v0.1.1...v0.1.2) (2025-05-14)
+
+
+### Bug Fixes
+
+* added tempates in files ([5e9c0c5](https://github.com/OgabekYuldoshev/create-bek-stack/commit/5e9c0c54b039f5ace76441810200a22c4fa0380c))
+
 ### 0.1.1 (2025-05-14)
 
 

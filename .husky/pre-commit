@@ -1,2 +1,1 @@
-pnpm biome check --write ./src
-pnpm build
+pnpm biome check --write ./src & pnpm build

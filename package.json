@@ -1,0 +1,43 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "name": "create-bek-stack",
+  "author": "Ogabek Yuldoshev <http://www.github.com/OgabekYuldoshev>",
+  "main": "dist/index.mjs",
+  "typings": "dist/index.d.mts",
+  "bin": {
+    "create-bek-stack": "dist/index.mjs",
+    "cbs": "dist/index.mjs"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "build": "tsup ./src/index.ts",
+    "lint": "pnpm biome check --write ./src"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm biome check --write ./src"
+    }
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^22.15.18",
+    "husky": "^9.1.7",
+    "tslib": "^2.8.1",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.1",
+    "minimist": "^1.2.8",
+    "picocolors": "^1.1.1"
+  }
+}

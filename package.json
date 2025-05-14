@@ -21,6 +21,7 @@
     "build": "tsup ./src/index.ts",
     "lint": "pnpm biome check --write ./src",
     "prepublish": "pnpm build",
+    "release": "standard-version",
     "prepare": "husky"
   },
   "devDependencies": {
@@ -28,6 +29,7 @@
     "@types/minimist": "^1.2.5",
     "@types/node": "^22.15.18",
     "husky": "^9.1.7",
+    "standard-version": "^9.5.0",
     "tslib": "^2.8.1",
     "tsup": "^8.4.0",
     "typescript": "^5.8.3"

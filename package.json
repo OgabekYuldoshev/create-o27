@@ -1,13 +1,13 @@
 {
-  "version": "0.1.2",
+  "version": "0.0.1",
   "license": "MIT",
-  "name": "create-bek-stack",
+  "name": "create-o27-stack",
   "author": "Ogabek Yuldoshev <http://www.github.com/OgabekYuldoshev>",
   "main": "dist/index.mjs",
   "typings": "dist/index.d.mts",
   "bin": {
-    "create-bek-stack": "dist/index.mjs",
-    "cbs": "dist/index.mjs"
+    "create-o27-stack": "dist/index.mjs",
+    "co27s": "dist/index.mjs"
   },
   "files": [
     "dist",
